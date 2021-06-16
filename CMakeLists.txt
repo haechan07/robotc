@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-set(CMAKE_LEGACY_CYGWIN_WIN32 0)
 project(CodeUp C)
-
 set(CMAKE_C_STANDARD 99)
 
 add_executable(1001 1001.c)
@@ -64,3 +62,9 @@ add_executable(1143 1143.c)
 add_executable(1144 1144.c)
 add_executable(1147 1147.c)
 add_executable(1148 1148.c)
+add_executable(1151 1151.c)
+add_executable(1152 1152.c)
+add_executable(1153 1153.c)
+add_executable(1154 1154.c)
+add_executable(1155 1155.c)
+add_executable(1156 1156.c)

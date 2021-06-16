@@ -3,9 +3,7 @@ file = open("CMakeLists.txt", 'w') # CMakeLists.txt 초기화
 files = os.listdir() # 파일 명단
 
 file.write("""cmake_minimum_required(VERSION 3.1)
-set(CMAKE_LEGACY_CYGWIN_WIN32 0)
 project(CodeUp C)
-
 set(CMAKE_C_STANDARD 99)
 
 """) # 기본 내용
